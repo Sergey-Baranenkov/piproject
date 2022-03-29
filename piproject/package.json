@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest -i  --forceExit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,6 +44,8 @@
   },
   "devDependencies": {
     "@types/react-alert": "^7.0.2",
-    "prettier": "2.6.0"
+    "jest": "^27.5.1",
+    "prettier": "2.6.0",
+    "ts-jest": "^27.1.4"
   }
 }
